@@ -9,7 +9,11 @@ auToKilometres au = if au > 0
                     then au * 149597871
                     else 0
 
--- Velocity at a given point (radius r) around object with mass (M) with apsis and periapsis (r1, r2)
+-- Velocity at a given point (radius r) around object with mass (m) along with apsis and periapsis (r1, r2)
 velocityAt r r1 r2 m = if r == semiMajorAxis r1 r2
                        then (g * m) * (1 / semiMajorAxis r1 r2)
                        else (g * m) * ((2 / r) - (1 / semiMajorAxis r1 r2))
+
+-- Calculate the orbital period of an object with mass (m) along with apsis and periapsis (r1, r2)
+orbitalPeriod r1 r2 m = (2 * pi) * (sqrt (((semiMajorAxis r1 r2) ^ 3) / (g * m)))
+ -- (2 * pi) * (sqrt (((semiMajorAxis r1 r2 ^ 3) / (g * m))
