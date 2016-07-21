@@ -20,3 +20,12 @@ orbitalPeriod r1 r2 m = (2 * pi) * (sqrt (((semiMajorAxis r1 r2) ^ 3) / (g * m))
 
 -- Calculate the escape velocity of an object given the mass of the central object (m) and distance from it's centre (r)
 escapeVelocity r m = sqrt ((2 * (g * m)) / r)
+
+-- Get info about Supported functions
+help = do
+    putStrLn "Supported Functions:"
+    putStrLn "\t g -- get the universal gravitational constant"
+    putStrLn "\n\t semiMajorAxis r1 r2 -- calculate the semi major axis of an orbit given an apsis and periapsis (r1, r2)"
+    putStrLn "\n\t velocityAt r r1 r2 m -- get the velocity at a given point (radius r) around object with mass (m) along with apsis and periapsis (r1, r2)"
+    putStrLn "\n\t orbitalPeriod r1 r2 m -- calculate the orbital period of an object with mass (m) along with apsis and periapsis (r1, r2)"
+    putStrLn "\n\t escapeVelocity r m -- calculate the escape velocity of an object given the mass of the central object (m) and distance from it's centre (r)"
