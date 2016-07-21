@@ -18,6 +18,9 @@ Simple orbital calculations in a haskell program
 #### orbitalPeriod r1 r2 m
 *Calculate the orbital period of an object with mass (m) along with apsis and periapsis (r1, r2)*
 
+#### escapeVelocity r m
+*Calculate the escape velocity of an object given the mass of the central object (m) and distance from it's centre (r)*
+
 ### How to use it
 - Download the Haskell platform from https://www.haskell.org/platform/
 - Run the source.hs file using GHCI
