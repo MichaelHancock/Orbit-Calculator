@@ -21,6 +21,9 @@ Simple orbital calculations in a haskell program
 #### escapeVelocity r m
 *Calculate the escape velocity of an object given the mass of the central object (m) and distance from it's centre (r)*
 
+#### help
+*Get information about supported functions*
+
 ### How to use it
 - Download the Haskell platform from https://www.haskell.org/platform/
 - Run the source.hs file using GHCI
