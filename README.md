@@ -21,6 +21,9 @@ Simple orbital calculations in a haskell program
 #### escapeVelocity r m
 *Calculate the escape velocity of an object given the mass of the central object (m) and distance from it's centre (r)*
 
+#### eccentricity r1 r2
+*Calculate the orbital eccentricity of an object given the apsis and periapsis (r1, r2)*
+
 #### help
 *Get information about supported functions*
 
