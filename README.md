@@ -24,6 +24,9 @@ Simple orbital calculations in a haskell program
 #### eccentricity r1 r2
 *Calculate the orbital eccentricity of an object given the apsis and periapsis (r1, r2)*
 
+### incliation h hz
+*Calculate the inclination of an orbit given the Orbital Momentum Vector (h) and the z component of h (hz)*
+
 #### help
 *Get information about supported functions*
 
