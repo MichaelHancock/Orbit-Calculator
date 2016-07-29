@@ -30,7 +30,7 @@ Simple orbital calculations in a haskell program
 #### help
 *Get information about supported functions*
 
-### How to use it
+#### How to use it
 - Download the Haskell platform from https://www.haskell.org/platform/
 - Run the source.hs file using GHCI
 - Type the name of function you wish to call with parameters separated by spaces
