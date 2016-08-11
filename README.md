@@ -27,13 +27,11 @@ Simple orbital calculations in a haskell program
 #### incliation h hz
 *Calculate the inclination of an orbit given the Orbital Momentum Vector (h) and the z component of h (hz)*
 
-#### help
-*Get information about supported functions*
-
 ### How to use it
 - Download the Haskell platform from https://www.haskell.org/platform/
 - Run the source.hs file using GHCI
 - Type the name of function you wish to call with parameters separated by spaces
+
 ```
 prelude> semiMajorAxis 1203001 38340009
 ```
