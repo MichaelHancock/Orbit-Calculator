@@ -1,5 +1,5 @@
 -- Universal gravitational constant
-g = 6.67408 * (10 ^ 11)
+g = 6.67408 * (10 ^^ (-11))
 
 -- Calculate the semi major axis of an orbit given an apsis and periapsis (r1, r2)
 semiMajorAxis r1 r2 = (r1 + r2) / 2
