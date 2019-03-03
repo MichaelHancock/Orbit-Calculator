@@ -1,3 +1,5 @@
+module OrbitCalculator where
+
 -- Universal gravitational constant
 g = 6.67408 * (10 ^^ (-11))
 
