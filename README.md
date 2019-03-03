@@ -1,5 +1,5 @@
 # Orbit-Calculator
-Simple orbital calculations in a haskell program
+Simple orbital calculations in a haskell module
 
 ### Supported functions
 
@@ -33,5 +33,7 @@ Simple orbital calculations in a haskell program
 - Type the name of function you wish to call with parameters separated by spaces
 
 ```haskell
-semiMajorAxis 1203001 38340009
+import OrbitCalculator
+
+main = do print(semiMajorAxis 1203001 38340009)
 ```
