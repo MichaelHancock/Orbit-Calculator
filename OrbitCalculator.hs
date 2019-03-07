@@ -18,7 +18,6 @@ velocityAt r r1 r2 m = if r == semiMajorAxis r1 r2
 
 -- Calculate the orbital period of an object with mass (m) along with apsis and periapsis (r1, r2)
 orbitalPeriod r1 r2 m = (2 * pi) * (sqrt (((semiMajorAxis r1 r2) ^ 3) / (g * m)))
- -- (2 * pi) * (sqrt (((semiMajorAxis r1 r2 ^ 3) / (g * m))
 
 -- Calculate the escape velocity of an object given the mass of the central object (m) and distance from it's centre (r)
 escapeVelocity r m = sqrt ((2 * (g * m)) / r)
