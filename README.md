@@ -28,9 +28,6 @@ Simple orbital calculations in a haskell module
 *Calculate the inclination of an orbit given the Orbital Momentum Vector (h) and the z component of h (hz)*
 
 ### How to use it
-- Download the [Haskell platform](https://www.haskell.org/platform/)
-- Run the source.hs file using GHCI
-- Type the name of function you wish to call with parameters separated by spaces
 
 ```haskell
 import OrbitCalculator
